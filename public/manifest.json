@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "ConsentCanvas",
+  "version": "0.1",
+  "permissions": ["storage", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["src/content.js"],
+    "run_at": "document_idle"
+  }]
+}
+

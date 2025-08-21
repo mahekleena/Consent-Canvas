@@ -1,0 +1,17 @@
+﻿# Python
+venv/
+__pycache__/
+*.pyc
+
+# HuggingFace / model cache
+.cache/
+huggingface/
+
+# Node / Chrome extension
+node_modules/
+dist/
+build/
+
+# OS junk
+.DS_Store
+Thumbs.db
