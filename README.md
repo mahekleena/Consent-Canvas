@@ -25,3 +25,4 @@ It provides APIs that can process cookie banner text and negotiate user-friendly
 ```bash
 git clone https://github.com/mahekleena/Consent-Canvas.git
 cd Consent-Canvas
+
